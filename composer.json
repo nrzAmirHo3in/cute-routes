@@ -1,0 +1,29 @@
+{
+    "name": "nrzamirho3in/cute-routes",
+    "description": "Visualise your Laravel routes in a beautiful and cute format.",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "5.*|6.*|7.*|8.*|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmirHossein Noroozi",
+            "email": "nrzamirho3in@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CuteRoutes\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CuteRoutes\\ServiceProvider"
+            ]
+        }
+    }
+}
